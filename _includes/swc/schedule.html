@@ -1,40 +1,71 @@
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
-    <table class="table table-striped">
-      <tr> <td>Before</td> <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Pre-workshop survey</a> </td> </tr>
-      <tr> <td>09:00</td>  <td>Automating Tasks with the Unix Shell</td> </tr>
-      <tr> <td>10:30</td>  <td>Morning break</td> </tr>
-      <tr> <td>11:00</td>  <td>Automating Tasks with the Unix Shell (Continued)</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      {% if site.flavor == "r" %}
-      <tr> <td>13:00</td>  <td>Building Programs with R</td> </tr>
-      <tr> <td>14:30</td>  <td>Afternoon break</td> </tr>
-      <tr> <td>15:00</td>  <td>Building Programs with R (Continued)</td> </tr>
-      {% elsif site.flavor == "python" %}
-      <tr> <td>13:00</td>  <td>Building Programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Afternoon break</td> </tr>
-      <tr> <td>15:00</td>  <td>Building Programs with Python (Continued)</td> </tr>
-      {% else %}
-      {% include warning-flavor.html %}
-      {% endif %}
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
-      <tr> <td>16:30</td>  <td>END</td> </tr>
+    <h3>Day 1: Mon Feb 24</h3>
+    <h4>
+    Lesson <a href="https://carpentries-incubator.github.io/python-novice-programming-gapminder/" target="_blank" rel="noopener noreferrer"> Programming with Python. Part 1</a>
+    </h4>
+<table class="table table-striped">
+      <tr> <td>09:30</td>  <td> <a href="http://swcarpentry.github.io/python-novice-gapminder/index.html#setup" target="_blank" rel="noopener noreferrer">Setup</a> </td> </tr>
+      <tr> <td>        </td>  <td> <a href="https://carpentries-incubator.github.io/python-novice-programming-gapminder/01-intro/index.html"  target="_blank">Python Fundamentals</a></td> </tr>
+      <tr> <td>        </td>  <td> <a href="https://carpentries-incubator.github.io/python-novice-programming-gapminder/02-pandas/index.html"  target="_blank">Variables</a></td> </tr>
+     <tr> <td>        </td>  <td> <a href="https://carpentries-incubator.github.io/python-novice-programming-gapminder/03-matplotlib/index.html"  target="_blank">Data Types</a></td> </tr>
+      <tr> <td>        </td>  <td> <a href="https://carpentries-incubator.github.io/python-novice-programming-gapminder/04-lists/index.html"  target="_blank">Storing Multiple Values in Lists</a></td> </tr>
+      <tr> <td>        </td>  <td> <a href="https://carpentries-incubator.github.io/python-novice-programming-gapminder/05-loop/index.html"  target="_blank">Repeating Actions with Loops</a> </td> </tr>
+    <tr> <td>        </td>  <td> <a href="https://carpentries-incubator.github.io/python-novice-programming-gapminder/07-cond/index.html"  target="_blank">Conditionals</a></td> </tr> 
+      <tr> <td>14:30</td>  <td>END</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
+    <h3>Day 2: Tue Feb 25</h3>
+    <h4>
+        Lesson <a href="https://carpentries-incubator.github.io/python-novice-programming-gapminder/" target="_blank" rel="noopener noreferrer"> Programming with Python. Part 2</a>
+    </h4>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version Control with Git</td> </tr>
+    <tr> <td>09:30</td>  <td> <a href="http://swcarpentry.github.io/python-novice-gapminder/index.html#setup" target="_blank" rel="noopener noreferrer">Setup</a> </td> </tr>
+      <tr> <td>        </td>  <td> <a href="https://carpentries-incubator.github.io/python-novice-programming-gapminder/"  target="_blank">Librariess</a></td> </tr>
+      <tr> <td>        </td>  <td> <a href="https://carpentries-incubator.github.io/python-novice-programming-gapminder/02-pandas/index.html"  target="_blank">Variables</a></td> </tr>
+     <tr> <td>        </td>  <td> <a href="https://carpentries-incubator.github.io/python-novice-programming-gapminder/03-matplotlib/index.html"  target="_blank">Plotting</a></td> </tr>
+      <tr> <td>        </td>  <td> <a href="https://carpentries-incubator.github.io/python-novice-programming-gapminder/08-func/index.html"  target="_blank">Writing Functions</a></td> </tr>
+      <tr> <td>        </td>  <td> <a href="https://carpentries-incubator.github.io/python-novice-programming-gapminder/09-errors/index.html"  target="_blank">Variable Scope</a> </td> </tr>
+    <tr> <td>        </td>  <td> <a href="https://carpentries-incubator.github.io/python-novice-programming-gapminder/10-defensive/index.html"  target="_blank">Programming Style</a></td> </tr> 
+      <tr> <td>14:30</td>  <td>END</td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>Day 3: Wed Feb 26</h3>
+    <h4>
+       Lesson <a href="https://swcarpentry.github.io/shell-novice/" target="_blank" rel="noopener noreferrer"> The Unix Shell</a>
+    </h4>
+    <table class="table table-striped">
+      <tr> <td>09:30</td>  <td> <a href="https://swcarpentry.github.io/shell-novice/01-intro.html" target="_blank" rel="noopener noreferrer">Introducing Shell</a> </td> </tr> 
+      <tr> <td>     </td>  <td> <a href="https://swcarpentry.github.io/shell-novice/02-filedir.html" target="_blank" rel="noopener noreferrer">Navigating Files and Directories</a> </td> </tr>                       
+      <tr> <td>10:30</td>  <td>Morning break, 15 minutes </td> </tr>
+      <tr> <td>10:45</td>  <td> <a href="https://swcarpentry.github.io/shell-novice/03-create.html" target="_blank" rel="noopener noreferrer">Working With Files and Directories</a> </td> </tr>
+      <tr> <td>11:35</td>  <td>Morning break, 10 minutes </td> </tr>
+      <tr> <td>11:45</td>  <td>  <a href="https://swcarpentry.github.io/shell-novice/04-pipefilter.html" target="_blank" rel="noopener noreferrer">Pipes and Filters</a> </td> </tr>
+      <tr> <td>12:20</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td>  <td> <a href="https://swcarpentry.github.io/git-novice/" target="_new" rel="noopener noreferrer">Version control with Git (Episodes 1-4)</a> </td> </tr>
+      <tr> <td>14:30</td>  <td>END</td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>Day 4: Thu Feb 27</h3>
+    <h4>
+    Lesson <a href="https://swcarpentry.github.io/git-novice/" target="_blank" rel="noopener noreferrer"> Version Control with Git</a>
+    </h4>
+    <table class="table table-striped">
+      <tr> <td>09:30</td>  <td> <a href="https://swcarpentry.github.io/git-novice/05-history.html" target="_blank" rel="noopener noreferrer">Exploring Changes</a> </td> </tr>
       <tr> <td>10:30</td>  <td>Morning break</td> </tr>
-      <tr> <td>11:00</td>  <td>Version Control with Git (Continued)</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing Data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Afternoon break</td> </tr>
-      <tr> <td>15:00</td>  <td>Managing Data with SQL (Continued)</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
-      <tr> <td>16:30</td>  <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Post-workshop Survey</a></td> </tr>
-      <tr> <td>16:40</td>  <td>END</td> </tr>
+      <tr> <td>10:45</td>  <td> <a href="https://swcarpentry.github.io/git-novice/06-ignore.html" target="_blank" rel="noopener noreferrer">Ignoring Things</a>, 
+                                <a href="https://swcarpentry.github.io/git-novice/07-github.html" target="_blank" rel="noopener noreferrer">Remotes in GitHub</a> and
+                                Exercise </td> </tr>
+      <tr> <td>11:45</td>  <td>Lunch break</td> </tr>
+      <tr> <td>12:30</td>  <td> <a href="https://swcarpentry.github.io/git-novice/08-collab.html" target="_blank" rel="noopener noreferrer">Collaborating</a>, 
+                                <a href="https://swcarpentry.github.io/git-novice/09-conflict.html" target="_blank" rel="noopener noreferrer">Conflicts</a> and
+                                <a href="https://swcarpentry.github.io/git-novice/10-open.html" target="_blank" rel="noopener noreferrer">Open Science</a> </td> </tr>
+      <tr> <td>     </td>  <td> Wrap-up </td> </tr>
+      <tr> <td>14:15</td>  <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Post-workshop Survey</a></td> </tr>
+      <tr> <td>14:30</td>  <td>END</td> </tr>
     </table>
   </div>
 </div>
